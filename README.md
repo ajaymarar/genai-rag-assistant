@@ -1,12 +1,12 @@
+# GenAI Enterprise Knowledge Assistant (RAG)
+This project is a Retrieval Augmented Generation (RAG) system that allows users to query multiple enterprise documents using a local, open-source GenAI pipeline.
+
 ## What this project demonstrates
 - Retrieval Augmented Generation (RAG)
 - Vector search using FAISS
 - Open-source embeddings and LLMs
 - FastAPI-based GenAI service
 - Grounded answers with source citations
-
-# GenAI Enterprise Knowledge Assistant (RAG)
-This project is a Retrieval Augmented Generation (RAG) system that allows users to query multiple enterprise documents using a local, open-source GenAI pipeline.
 
 ## Features
 - Loads multiple PDF documents automatically
