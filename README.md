@@ -17,8 +17,7 @@ This project is a Retrieval Augmented Generation (RAG) system that allows users 
 - Provides context-aware answers with source citations
 - No paid APIs required
 
-## Tech Stack
-- Python
+## Libraries Used
 - LangChain
 - HuggingFace Transformers
 - FAISS
@@ -31,13 +30,15 @@ This project is a Retrieval Augmented Generation (RAG) system that allows users 
 4. The LLM generates answers grounded in retrieved context
 5. Source documents and page numbers are displayed
 
-## Running the API
+## Running the program
 Activate virtual environment and run:
 
 ```bash
 uvicorn app:app --reload
 http://127.0.0.1:8000/docs
+```
 
 ## Run locally
 ```bash
 python app.py
+```
